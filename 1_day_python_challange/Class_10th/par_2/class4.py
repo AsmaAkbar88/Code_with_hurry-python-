@@ -20,6 +20,7 @@ class Calculator():
 
 result = Calculator(4)
 Calculator.greet()     #Hello every one
+result.greet()         #Hello every one
 result.square()        #Output:  This is a square 16
 
 result.cube()          #Output:  This is a cube 64

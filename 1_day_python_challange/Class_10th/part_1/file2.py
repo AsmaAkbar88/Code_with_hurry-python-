@@ -10,3 +10,5 @@ class Employee():
 result  = Employee()
 result.getinfo()         #Ouput:  The language is PY. The salary is 120000
 print(result.language , result.salary , result.name)  #OUTPUT: PY 120000 iqra
+
+Employee.getinfo(result)   #Output: The language is PY. The salary is 120000

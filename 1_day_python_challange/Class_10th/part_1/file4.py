@@ -23,12 +23,8 @@ print(result.name , result.salary , result.language)  #Output:  Asma 1234500 pyt
 print(result.language , result.name , result.salary)  #Output:  python Asma 1234500
 
 
-
-
-
 # result.getinfo()              #Output:  The language is PY. The salary is 120000
 # result.greet()                #Output:    Good Morning
 # print(result.language , result.salary , result.name) #Output:    PY 120000 iqra
-
 
 # Employee.getinfo(result)   #Output:    The language is PY. The salary is 120000

@@ -16,8 +16,8 @@ class Calculator():
         
 
 result = Calculator(4)
-result.square()
+result.square()    #Output:     This is a square 16
 
-result.cube()
+result.cube()      #Output:     This is a square 64
 
-result.square_root()
+result.square_root()    #Output:     This is a square 2.0

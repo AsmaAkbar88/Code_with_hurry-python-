@@ -16,8 +16,9 @@ class Train():
 
 
 t =Train(134644)
-t.book("Karachi " , "Lahore \n")
+t.book("Karachi " , "Lahore \n")   #Output:    Ticket is booked in train no: 134644 from Karachi  to Lahore 
 
-t.get_status()
+t.get_status()      #Output:   Train no: 134644 is running on time
 
-t.getFare("Larkana" , "Karachi Cant\n")
+t.getFare("Larkana" , "Karachi Cant\n")    #Output:   Ticket fare in train no: 134644 from Larkana to Karachi Cant
+#  is 361 
